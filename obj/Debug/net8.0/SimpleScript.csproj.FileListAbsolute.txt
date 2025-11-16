@@ -1,0 +1,14 @@
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.AssemblyInfoInputs.cache
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.AssemblyInfo.cs
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\SimpleScript\bin\Debug\net8.0\SimpleScript.exe
+C:\Users\nicol\Desktop\SimpleScript\bin\Debug\net8.0\SimpleScript.deps.json
+C:\Users\nicol\Desktop\SimpleScript\bin\Debug\net8.0\SimpleScript.runtimeconfig.json
+C:\Users\nicol\Desktop\SimpleScript\bin\Debug\net8.0\SimpleScript.dll
+C:\Users\nicol\Desktop\SimpleScript\bin\Debug\net8.0\SimpleScript.pdb
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.dll
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\refint\SimpleScript.dll
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.pdb
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.genruntimeconfig.cache
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\ref\SimpleScript.dll

@@ -1,0 +1,11 @@
+#include "core/clang.smh";
+asm("in al, 92h");
+al|=2;
+asm("out 92h, al");
+asm("nop");
+eax=0;
+asm("int 10h");
+ebx=0B8000h;
+al=70+2;
+[ebx]=al;
+[ebx+1]=al;

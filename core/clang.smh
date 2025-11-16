@@ -1,0 +1,7 @@
+#define %c=%a+%b asm("mov %c, %a")\asm("add %c, %b");
+#define %c=%a-%b asm("mov %c, %a")\asm("sub %c, %b");
+
+#define %a+=%b asm("add %a, %b");
+#define %a-=%b asm("sub %a, %b");
+#define %a|=%b asm("or %a, %b");
+#define %a=%b asm("mov %a, %b");
