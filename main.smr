@@ -1,11 +1,36 @@
 #include "core/clang.smh";
-asm("in al, 92h");
-al|=2;
-asm("out 92h, al");
+//open line;
+92h -> al;
+al |= 2;
+92h <- al;
 asm("nop");
-eax=0;
-asm("int 10h");
-ebx=0B8000h;
-al=70+2;
-[ebx]=al;
-[ebx+1]=al;
+eax ^= eax; //zero ax;
+// asm("int 10h");
+int(10h);
+
+integer movement;
+integer charable;
+
+eax = 4;
+[movement] = eax;
+eax = 65;
+[charable] = eax;
+
+ebx = [movement];
+// ebx = 4;
+asm("push ebx");
+ebx = [charable];
+// ebx = 65;
+asm("push ebx");
+asm("push ebp");
+ebp = esp;
+asm("call printchar");
+
+asm("printchar:");
+ax=[ebp+8];
+ax << 1;
+ebx = 0B8000h;
+ebx += eax;
+al=[ebp+4];
+[ebx] = al;
+asm("ret");

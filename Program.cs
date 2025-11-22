@@ -26,6 +26,11 @@ public class Program {
 						for(int a = stacky.peek().startAt; a < instructions.Length; ++a){
 							Console.WriteLine($"Trying compile {instructions[a]}");
 							instructions[a] = instructions[a].Trim();
+
+							if(instructions[a].IndexOf("//") != -1){
+								continue;
+							}
+
 							if(instructions[a].IndexOf("#define") != -1){
 								string[] macro_text = instructions[a].Substring(8, instructions[a].Length-10).Trim().Split("asm(\"");
 								macrosing.addMacro(macro_text);

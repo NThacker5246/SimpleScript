@@ -1,7 +1,43 @@
+//Standart core of the SimpleScript language;
+//Here realized standart macros;
+//(C) NThacker1 2025-26;
+
+//Code goes there;
+
+#define %b<<%a asm("shl %b, %a");
+#define %b>>%a asm("shr %b, %a");
+
+#define %b<-%a asm("out %b, %a");
+#define %b->%a asm("in %a, %b");
+
+#define byte%a asm("%a db 0");
+#define short%a asm("%a dw 0");
+#define integer%a asm("%a dd 0");
+#define long%a asm("%a dq 0");
+
+#define int(%a) asm("int %a");
+
+#define %c=[%a+%b] asm("mov %c, [%a+%b]");
+#define %c=[%a-%b] asm("mov %c, [%a-%b]");
+
 #define %c=%a+%b asm("mov %c, %a")\asm("add %c, %b");
 #define %c=%a-%b asm("mov %c, %a")\asm("sub %c, %b");
 
+#define %c=%a|%b asm("mov %c, %a")\asm("or %c, %b");
+#define %c=%a^%b asm("mov %c, %a")\asm("xor %c, %b");
+#define %c=%a&%b asm("mov %c, %a")\asm("and %c, %b");
+
 #define %a+=%b asm("add %a, %b");
 #define %a-=%b asm("sub %a, %b");
+
 #define %a|=%b asm("or %a, %b");
+#define %a^=%b asm("xor %a, %b");
+#define %a&=%b asm("and %a, %b");
+
 #define %a=%b asm("mov %a, %b");
+
+#define ++%a asm("inc %a");
+#define --%a asm("dec %a");
+
+#define %a++ asm("inc %a");
+#define %a-- asm("dec %a");

@@ -12,3 +12,4 @@ C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\refint\SimpleScript.dll
 C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.pdb
 C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.genruntimeconfig.cache
 C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\ref\SimpleScript.dll
+C:\Users\nicol\Desktop\SimpleScript\obj\Debug\net8.0\SimpleScript.sourcelink.json
